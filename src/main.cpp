@@ -25,7 +25,7 @@ int main() {
     if (ast) {
          ast->print(std::cout);
     }
-    delete ast;
+//    delete ast;
 
     return 0;
 }
