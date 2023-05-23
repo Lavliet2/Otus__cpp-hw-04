@@ -10,7 +10,8 @@ ASTNode::ASTNode(const std::string &repr, ASTNode *lhs, ASTNode *rhs)
     , lhs_{lhs}
     , rhs_{rhs} {}
 
-ASTNode::~ASTNode() {
+ASTNode::~ASTNode()
+{
     delete lhs_;
     delete rhs_;
 }
